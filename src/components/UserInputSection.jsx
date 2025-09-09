@@ -39,7 +39,7 @@ function UserInputSection({ billValue, setBillValue, tipValue, setTipValue, cust
   return (
     <div className="user-input-section">
       <div className="input-container">
-        <label htmlFor="billValue" className="heading">billValue</label>
+        <label htmlFor="billValue" className="heading">Bill</label>
         <div className="input-field-container">
           <img src={IconDollar} className="input-icon" />
           <input 
@@ -81,7 +81,7 @@ function UserInputSection({ billValue, setBillValue, tipValue, setTipValue, cust
 
       <div className="input-container">
         <div className="label-container">
-          <label htmlFor="peopleValue" className="heading">Number of peopleValue</label>
+          <label htmlFor="peopleValue" className="heading">Number of people</label>
           {hasError && <span className="error-message">Can't be zero</span>}
         </div>
         <div className="input-field-container">
